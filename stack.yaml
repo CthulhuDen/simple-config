@@ -1,0 +1,13 @@
+resolver: lts-8.20
+
+docker:
+  enable: true
+
+packages:
+- '.'
+# Dependency packages to be pulled from upstream that are not in the resolver
+# (e.g., acme-missiles-0.3)
+extra-deps: []
+
+# Override default flag values for local packages and extra-deps
+flags: {}
